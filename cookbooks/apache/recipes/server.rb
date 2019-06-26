@@ -8,3 +8,7 @@ service 'httpd' do
    action [:enable, :start]
 end
 
+package 'php'
+package 'mysql'
+package 'libreoffice-wiki-publisher'
+
