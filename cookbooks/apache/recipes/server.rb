@@ -1,14 +1,11 @@
-package 'httpd'
+package node['apache']['package_name']
 
-file '/var/www/html/index.html' do
+file node['apache']['default_index_html'] do
    content '<h1>Welcome Home! Yeah!</h1>'
 end
 
-service 'httpd' do
+service node['apache']['service_name'] do
    action [:enable, :start]
 end
 
-package 'php'
-package 'mysql'
-package 'libreoffice-wiki-publisher'
 
