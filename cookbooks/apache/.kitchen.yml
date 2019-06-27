@@ -1,25 +1,21 @@
 ---
 driver:
-  name: dokken
-  chef_version: 14.12.9
+  name: vagrant
+  
 
 provisioner:
-  name: dokken
-
-transport:
-  name: dokken
+  name: chef_zero
+  always_update_cookbooks: true
+  client_rb:
+    chef_license: accept
 
 verifier:
   name: inspec
 
 platforms:
+  - name: ubuntu-18.04
   - name: centos-7
-    driver:
-      image: dokken/centos-7
-      privileged: true
-      pid_one_command: /usr/lib/systemd/systemd
-      volumes:
-        - /sys/fs/cgroup:/sys/fs/cgroup:ro # required by systemd
+
 suites:
   - name: default
     run_list:
