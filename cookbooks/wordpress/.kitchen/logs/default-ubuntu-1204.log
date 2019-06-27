@@ -1,0 +1,235 @@
+I, [2019-06-27T19:15:09.430925 #13232]  INFO -- default-ubuntu-1204: -----> Creating <default-ubuntu-1204>...
+I, [2019-06-27T19:15:10.935121 #13232]  INFO -- default-ubuntu-1204: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2019-06-27T19:15:12.671632 #13232]  INFO -- default-ubuntu-1204: ==> default: Box 'bento/ubuntu-12.04' could not be found. Attempting to find and install...
+I, [2019-06-27T19:15:12.671816 #13232]  INFO -- default-ubuntu-1204:     default: Box Provider: virtualbox
+I, [2019-06-27T19:15:12.671943 #13232]  INFO -- default-ubuntu-1204:     default: Box Version: >= 0
+I, [2019-06-27T19:15:13.645949 #13232]  INFO -- default-ubuntu-1204: ==> default: Loading metadata for box 'bento/ubuntu-12.04'
+I, [2019-06-27T19:15:13.646118 #13232]  INFO -- default-ubuntu-1204:     default: URL: https://vagrantcloud.com/bento/ubuntu-12.04
+I, [2019-06-27T19:15:14.574909 #13232]  INFO -- default-ubuntu-1204: ==> default: Adding box 'bento/ubuntu-12.04' (v2.3.5) for provider: virtualbox
+I, [2019-06-27T19:15:14.575135 #13232]  INFO -- default-ubuntu-1204:     default: Downloading: https://vagrantcloud.com/bento/boxes/ubuntu-12.04/versions/2.3.5/providers/virtualbox.box
+I, [2019-06-27T19:15:17.265113 #13232]  INFO -- default-ubuntu-1204: [K    default: Download redirected to host: vagrantcloud-files-production.s3.amazonaws.com
+I, [2019-06-27T19:15:58.329425 #13232]  INFO -- default-ubuntu-1204: [K    default: Progress: 0% (Rate: 378k/s, Estimated time remaining: 0:31:02)[K    default: Progress: 0% (Rate: 322k/s, Estimated time remaining: 0:22:20)[K    default: Progress: 0% (Rate: 322k/s, Estimated time remaining: 0:19:07)[K    default: Progress: 1% (Rate: 371k/s, Estimated time remaining: 0:15:48)[K    default: Progress: 1% (Rate: 465k/s, Estimated time remaining: 0:13:37)[K    default: Progress: 3% (Rate: 1217k/s, Estimated time remaining: 0:07:30)[K    default: Progress: 10% (Rate: 4498k/s, Estimated time remaining: 0:02:46)[K    default: Progress: 18% (Rate: 7761k/s, Estimated time remaining: 0:01:37)[K    default: Progress: 57% (Rate: 21.6M/s, Estimated time remaining: 0:00:20)[K    default: Progress: 83% (Rate: 29.1M/s, Estimated time remaining: 0:00:06)[K    default: Progress: 85% (Rate: 1429k/s, Estimated time remaining: 0:00:06)[K    default: Progress: 89% (Rate: 1917k/s, Estimated time remaining: 0:00:05)[K    default: Progress: 100% (Rate: 8158k/s, Estimated time remaining: --:--:--)[K    default: 
+I, [2019-06-27T19:15:59.385838 #13232]  INFO -- default-ubuntu-1204: ==> default: Successfully added box 'bento/ubuntu-12.04' (v2.3.5) for 'virtualbox'!
+I, [2019-06-27T19:15:59.517718 #13232]  INFO -- default-ubuntu-1204: ==> default: Importing base box 'bento/ubuntu-12.04'...
+I, [2019-06-27T19:16:13.478537 #13232]  INFO -- default-ubuntu-1204: [KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2019-06-27T19:16:13.720378 #13232]  INFO -- default-ubuntu-1204: ==> default: Checking if box 'bento/ubuntu-12.04' version '2.3.5' is up to date...
+I, [2019-06-27T19:16:15.125670 #13232]  INFO -- default-ubuntu-1204: ==> default: Setting the name of the VM: kitchen-wordpress-default-ubuntu-1204
+I, [2019-06-27T19:16:16.873551 #13232]  INFO -- default-ubuntu-1204: ==> default: Clearing any previously set network interfaces...
+I, [2019-06-27T19:16:16.949919 #13232]  INFO -- default-ubuntu-1204: ==> default: Preparing network interfaces based on configuration...
+I, [2019-06-27T19:16:16.950379 #13232]  INFO -- default-ubuntu-1204:     default: Adapter 1: nat
+I, [2019-06-27T19:16:17.039743 #13232]  INFO -- default-ubuntu-1204: ==> default: Forwarding ports...
+I, [2019-06-27T19:16:17.116702 #13232]  INFO -- default-ubuntu-1204:     default: 22 (guest) => 2222 (host) (adapter 1)
+I, [2019-06-27T19:16:17.368640 #13232]  INFO -- default-ubuntu-1204: ==> default: Booting VM...
+I, [2019-06-27T19:16:20.547568 #13232]  INFO -- default-ubuntu-1204: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2019-06-27T19:16:20.923481 #13232]  INFO -- default-ubuntu-1204:     default: SSH address: 127.0.0.1:2222
+I, [2019-06-27T19:16:20.923680 #13232]  INFO -- default-ubuntu-1204:     default: SSH username: vagrant
+I, [2019-06-27T19:16:20.923740 #13232]  INFO -- default-ubuntu-1204:     default: SSH auth method: private key
+I, [2019-06-27T19:16:38.326551 #13232]  INFO -- default-ubuntu-1204:     default: 
+I, [2019-06-27T19:16:38.326717 #13232]  INFO -- default-ubuntu-1204:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2019-06-27T19:16:38.326804 #13232]  INFO -- default-ubuntu-1204:     default: this with a newly generated keypair for better security.
+I, [2019-06-27T19:16:39.554419 #13232]  INFO -- default-ubuntu-1204:     default: 
+I, [2019-06-27T19:16:39.554558 #13232]  INFO -- default-ubuntu-1204:     default: Inserting generated public key within guest...
+I, [2019-06-27T19:16:40.297039 #13232]  INFO -- default-ubuntu-1204:     default: Removing insecure key from the guest if it's present...
+I, [2019-06-27T19:16:40.640669 #13232]  INFO -- default-ubuntu-1204:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2019-06-27T19:16:41.446670 #13232]  INFO -- default-ubuntu-1204: ==> default: Machine booted and ready!
+I, [2019-06-27T19:16:41.446965 #13232]  INFO -- default-ubuntu-1204: ==> default: Checking for guest additions in VM...
+I, [2019-06-27T19:16:41.536591 #13232]  INFO -- default-ubuntu-1204:     default: The guest additions on this VM do not match the installed version of
+I, [2019-06-27T19:16:41.536758 #13232]  INFO -- default-ubuntu-1204:     default: VirtualBox! In most cases this is fine, but in rare cases it can
+I, [2019-06-27T19:16:41.536881 #13232]  INFO -- default-ubuntu-1204:     default: prevent things such as shared folders from working properly. If you see
+I, [2019-06-27T19:16:41.537013 #13232]  INFO -- default-ubuntu-1204:     default: shared folder errors, please make sure the guest additions within the
+I, [2019-06-27T19:16:41.537124 #13232]  INFO -- default-ubuntu-1204:     default: virtual machine match the version of VirtualBox you have installed on
+I, [2019-06-27T19:16:41.537232 #13232]  INFO -- default-ubuntu-1204:     default: your host and reload your VM.
+I, [2019-06-27T19:16:41.537337 #13232]  INFO -- default-ubuntu-1204:     default: 
+I, [2019-06-27T19:16:41.537444 #13232]  INFO -- default-ubuntu-1204:     default: Guest Additions Version: 5.1.21
+I, [2019-06-27T19:16:41.537556 #13232]  INFO -- default-ubuntu-1204:     default: VirtualBox Version: 6.0
+I, [2019-06-27T19:16:41.546692 #13232]  INFO -- default-ubuntu-1204: ==> default: Setting hostname...
+I, [2019-06-27T19:16:45.382740 #13232]  INFO -- default-ubuntu-1204: ==> default: Mounting shared folders...
+I, [2019-06-27T19:16:45.382847 #13232]  INFO -- default-ubuntu-1204:     default: /tmp/omnibus/cache => C:/Users/CTA/.kitchen/cache
+I, [2019-06-27T19:16:46.126716 #13232]  INFO -- default-ubuntu-1204: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2019-06-27T19:16:49.522798 #13232]  INFO -- default-ubuntu-1204: [SSH] Established
+I, [2019-06-27T19:16:49.523492 #13232]  INFO -- default-ubuntu-1204: Vagrant instance <default-ubuntu-1204> created.
+I, [2019-06-27T19:16:49.530335 #13232]  INFO -- default-ubuntu-1204: Finished creating <default-ubuntu-1204> (1m40.09s).
+I, [2019-06-27T19:16:49.531273 #13232]  INFO -- default-ubuntu-1204: -----> Converging <default-ubuntu-1204>...
+I, [2019-06-27T19:16:49.534235 #13232]  INFO -- default-ubuntu-1204: Preparing files for transfer
+I, [2019-06-27T19:16:49.534571 #13232]  INFO -- default-ubuntu-1204: Preparing dna.json
+I, [2019-06-27T19:16:49.540758 #13232]  INFO -- default-ubuntu-1204: Resolving cookbook dependencies with Berkshelf 7.0.6...
+I, [2019-06-27T19:16:56.742380 #13232]  INFO -- default-ubuntu-1204: Removing non-cookbook files before transfer
+I, [2019-06-27T19:16:57.091617 #13232]  INFO -- default-ubuntu-1204: Preparing solo.rb
+I, [2019-06-27T19:16:57.130677 #13232]  INFO -- default-ubuntu-1204: -----> Installing Chef Omnibus (install only if missing)
+I, [2019-06-27T19:16:57.131263 #13232]  INFO -- default-ubuntu-1204: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2019-06-27T19:16:57.132682 #13232]  INFO -- default-ubuntu-1204: Trying wget...
+I, [2019-06-27T19:16:58.243615 #13232]  INFO -- default-ubuntu-1204: Download complete.
+I, [2019-06-27T19:16:58.276667 #13232]  INFO -- default-ubuntu-1204: ubuntu 12.04 x86_64
+I, [2019-06-27T19:16:58.277374 #13232]  INFO -- default-ubuntu-1204: Getting information for chef stable  for ubuntu...
+I, [2019-06-27T19:16:58.279477 #13232]  INFO -- default-ubuntu-1204: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=ubuntu&pv=12.04&m=x86_64
+I, [2019-06-27T19:16:58.282159 #13232]  INFO -- default-ubuntu-1204:   to file /tmp/install.sh.1960/metadata.txt
+I, [2019-06-27T19:16:58.282861 #13232]  INFO -- default-ubuntu-1204: trying wget...
+I, [2019-06-27T19:16:59.153080 #13232]  INFO -- default-ubuntu-1204: sha1	3eef728d8a096b6fce191216b51ba5fe4b064ea8
+I, [2019-06-27T19:16:59.154402 #13232]  INFO -- default-ubuntu-1204: sha256	df7201e5fb5113b8f68caa0cf4172dd7004282e947b449e0eeb094ea6e630227
+I, [2019-06-27T19:16:59.157497 #13232]  INFO -- default-ubuntu-1204: url	https://packages.chef.io/files/stable/chef/13.4.24/ubuntu/12.04/chef_13.4.24-1_amd64.deb
+I, [2019-06-27T19:16:59.161085 #13232]  INFO -- default-ubuntu-1204: version	13.4.24
+I, [2019-06-27T19:16:59.162193 #13232]  INFO -- default-ubuntu-1204: downloaded metadata file looks valid...
+I, [2019-06-27T19:16:59.184851 #13232]  INFO -- default-ubuntu-1204: downloading https://packages.chef.io/files/stable/chef/13.4.24/ubuntu/12.04/chef_13.4.24-1_amd64.deb
+I, [2019-06-27T19:16:59.196729 #13232]  INFO -- default-ubuntu-1204:   to file /tmp/omnibus/cache/chef_13.4.24-1_amd64.deb
+I, [2019-06-27T19:16:59.197282 #13232]  INFO -- default-ubuntu-1204: trying wget...
+I, [2019-06-27T19:17:08.875916 #13232]  INFO -- default-ubuntu-1204: Comparing checksum with sha256sum...
+I, [2019-06-27T19:17:09.338556 #13232]  INFO -- default-ubuntu-1204: 
+I, [2019-06-27T19:17:09.339267 #13232]  INFO -- default-ubuntu-1204: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2019-06-27T19:17:09.340950 #13232]  INFO -- default-ubuntu-1204: 
+I, [2019-06-27T19:17:09.344114 #13232]  INFO -- default-ubuntu-1204: You are installing an omnibus package without a version pin.  If you are installing
+I, [2019-06-27T19:17:09.348355 #13232]  INFO -- default-ubuntu-1204: on production servers via an automated process this is DANGEROUS and you will
+I, [2019-06-27T19:17:09.350753 #13232]  INFO -- default-ubuntu-1204: be upgraded without warning on new releases, even to new major releases.
+I, [2019-06-27T19:17:09.353439 #13232]  INFO -- default-ubuntu-1204: Letting the version float is only appropriate in desktop, test, development or
+I, [2019-06-27T19:17:09.354171 #13232]  INFO -- default-ubuntu-1204: CI/CD environments.
+I, [2019-06-27T19:17:09.355099 #13232]  INFO -- default-ubuntu-1204: 
+I, [2019-06-27T19:17:09.355839 #13232]  INFO -- default-ubuntu-1204: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2019-06-27T19:17:09.356584 #13232]  INFO -- default-ubuntu-1204: 
+I, [2019-06-27T19:17:09.357181 #13232]  INFO -- default-ubuntu-1204: Installing chef 
+I, [2019-06-27T19:17:09.357656 #13232]  INFO -- default-ubuntu-1204: installing with dpkg...
+I, [2019-06-27T19:17:09.542233 #13232]  INFO -- default-ubuntu-1204: Selecting previously unselected package chef.
+I, [2019-06-27T19:17:10.590116 #13232]  INFO -- default-ubuntu-1204: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 28752 files and directories currently installed.)
+I, [2019-06-27T19:17:10.591994 #13232]  INFO -- default-ubuntu-1204: Unpacking chef (from .../cache/chef_13.4.24-1_amd64.deb) ...
+I, [2019-06-27T19:17:21.935786 #13232]  INFO -- default-ubuntu-1204: Setting up chef (13.4.24-1) ...
+I, [2019-06-27T19:17:22.065574 #13232]  INFO -- default-ubuntu-1204: Thank you for installing Chef!
+I, [2019-06-27T19:17:22.164097 #13232]  INFO -- default-ubuntu-1204: Transferring files to <default-ubuntu-1204>
+I, [2019-06-27T19:17:41.518878 #13232]  INFO -- default-ubuntu-1204: Starting Chef Client, version 13.4.24
+I, [2019-06-27T19:17:43.204307 #13232]  INFO -- default-ubuntu-1204: Creating a new client identity for default-ubuntu-1204 using the validator key.
+I, [2019-06-27T19:17:43.420082 #13232]  INFO -- default-ubuntu-1204: resolving cookbooks for run list: ["apt", "wordpress"]
+I, [2019-06-27T19:17:45.686988 #13232]  INFO -- default-ubuntu-1204: Synchronizing Cookbooks:
+I, [2019-06-27T19:17:45.763202 #13232]  INFO -- default-ubuntu-1204:   - apt (2.6.1)
+I, [2019-06-27T19:17:45.796379 #13232]  INFO -- default-ubuntu-1204:   - wordpress (3.0.0)
+I, [2019-06-27T19:17:45.894108 #13232]  INFO -- default-ubuntu-1204:   - openssl (8.5.5)
+I, [2019-06-27T19:17:45.916457 #13232]  INFO -- default-ubuntu-1204:   - php (5.1.0)
+I, [2019-06-27T19:17:46.100094 #13232]  INFO -- default-ubuntu-1204:   - apache2 (7.1.0)
+I, [2019-06-27T19:17:46.143944 #13232]  INFO -- default-ubuntu-1204:   - database (6.1.1)
+I, [2019-06-27T19:17:46.198615 #13232]  INFO -- default-ubuntu-1204:   - mysql (8.5.1)
+I, [2019-06-27T19:17:46.210318 #13232]  INFO -- default-ubuntu-1204:   - mysql2_chef_gem (1.0.1)
+I, [2019-06-27T19:17:46.231814 #13232]  INFO -- default-ubuntu-1204:   - build-essential (2.4.0)
+I, [2019-06-27T19:17:46.297261 #13232]  INFO -- default-ubuntu-1204:   - tar (2.2.0)
+I, [2019-06-27T19:17:46.319693 #13232]  INFO -- default-ubuntu-1204:   - iis (7.2.0)
+I, [2019-06-27T19:17:46.449523 #13232]  INFO -- default-ubuntu-1204:   - nginx (2.7.6)
+I, [2019-06-27T19:17:46.471080 #13232]  INFO -- default-ubuntu-1204:   - php-fpm (0.6.10)
+I, [2019-06-27T19:17:46.493519 #13232]  INFO -- default-ubuntu-1204:   - selinux (0.9.0)
+I, [2019-06-27T19:17:46.505264 #13232]  INFO -- default-ubuntu-1204:   - yum-epel (0.7.1)
+I, [2019-06-27T19:17:46.538403 #13232]  INFO -- default-ubuntu-1204:   - postgresql (7.1.4)
+I, [2019-06-27T19:17:46.582374 #13232]  INFO -- default-ubuntu-1204:   - mariadb (2.1.0)
+I, [2019-06-27T19:17:46.604832 #13232]  INFO -- default-ubuntu-1204:   - 7-zip (1.0.2)
+I, [2019-06-27T19:17:46.627251 #13232]  INFO -- default-ubuntu-1204:   - windows (6.0.0)
+I, [2019-06-27T19:17:46.659503 #13232]  INFO -- default-ubuntu-1204:   - bluepill (2.4.3)
+I, [2019-06-27T19:17:46.660182 #13232]  INFO -- default-ubuntu-1204:   - ohai (2.1.0)
+I, [2019-06-27T19:17:46.693651 #13232]  INFO -- default-ubuntu-1204:   - runit (1.8.0)
+I, [2019-06-27T19:17:46.705350 #13232]  INFO -- default-ubuntu-1204:   - yum (5.1.0)
+I, [2019-06-27T19:17:46.717051 #13232]  INFO -- default-ubuntu-1204:   - selinux_policy (2.3.4)
+I, [2019-06-27T19:17:46.728765 #13232]  INFO -- default-ubuntu-1204:   - rsyslog (6.0.7)
+I, [2019-06-27T19:17:46.740474 #13232]  INFO -- default-ubuntu-1204:   - packagecloud (1.0.1)
+I, [2019-06-27T19:17:46.741060 #13232]  INFO -- default-ubuntu-1204: Installing Cookbook Gems:
+I, [2019-06-27T19:17:47.065615 #13232]  INFO -- default-ubuntu-1204: Compiling Cookbooks...
+I, [2019-06-27T19:17:47.184710 #13232]  INFO -- default-ubuntu-1204: 
+I, [2019-06-27T19:17:47.185232 #13232]  INFO -- default-ubuntu-1204: ================================================================================
+I, [2019-06-27T19:17:47.187328 #13232]  INFO -- default-ubuntu-1204: Recipe Compile Error in /tmp/kitchen/cache/cookbooks/mysql2_chef_gem/libraries/z_provider_mapping.rb
+I, [2019-06-27T19:17:47.189252 #13232]  INFO -- default-ubuntu-1204: ================================================================================
+I, [2019-06-27T19:17:47.190014 #13232]  INFO -- default-ubuntu-1204: 
+I, [2019-06-27T19:17:47.190764 #13232]  INFO -- default-ubuntu-1204: NoMethodError
+I, [2019-06-27T19:17:47.191294 #13232]  INFO -- default-ubuntu-1204: -------------
+I, [2019-06-27T19:17:47.191862 #13232]  INFO -- default-ubuntu-1204: undefined method `set' for Chef::Platform:Class
+I, [2019-06-27T19:17:47.192313 #13232]  INFO -- default-ubuntu-1204: 
+I, [2019-06-27T19:17:47.192897 #13232]  INFO -- default-ubuntu-1204: Cookbook Trace:
+I, [2019-06-27T19:17:47.193309 #13232]  INFO -- default-ubuntu-1204: ---------------
+I, [2019-06-27T19:17:47.193792 #13232]  INFO -- default-ubuntu-1204:   /tmp/kitchen/cache/cookbooks/mysql2_chef_gem/libraries/z_provider_mapping.rb:4:in `<top (required)>'
+I, [2019-06-27T19:17:47.196100 #13232]  INFO -- default-ubuntu-1204: 
+I, [2019-06-27T19:17:47.196717 #13232]  INFO -- default-ubuntu-1204: Relevant File Content:
+I, [2019-06-27T19:17:47.199120 #13232]  INFO -- default-ubuntu-1204: ----------------------
+I, [2019-06-27T19:17:47.199723 #13232]  INFO -- default-ubuntu-1204: /tmp/kitchen/cache/cookbooks/mysql2_chef_gem/libraries/z_provider_mapping.rb:
+I, [2019-06-27T19:17:47.200259 #13232]  INFO -- default-ubuntu-1204: 
+I, [2019-06-27T19:17:47.200921 #13232]  INFO -- default-ubuntu-1204:   1:  #########
+I, [2019-06-27T19:17:47.201454 #13232]  INFO -- default-ubuntu-1204:   2:  # mysql2_chef_gem
+I, [2019-06-27T19:17:47.201984 #13232]  INFO -- default-ubuntu-1204:   3:  #########
+I, [2019-06-27T19:17:47.202820 #13232]  INFO -- default-ubuntu-1204:   4>> Chef::Platform.set platform: :amazon, resource: :mysql2_chef_gem, provider: Chef::Provider::Mysql2ChefGem::Mysql
+I, [2019-06-27T19:17:47.203531 #13232]  INFO -- default-ubuntu-1204:   5:  Chef::Platform.set platform: :centos, version: '< 7.0', resource: :mysql2_chef_gem, provider: Chef::Provider::Mysql2ChefGem::Mysql
+I, [2019-06-27T19:17:47.208512 #13232]  INFO -- default-ubuntu-1204:   6:  Chef::Platform.set platform: :centos, version: '>= 7.0', resource: :mysql2_chef_gem, provider: Chef::Provider::Mysql2ChefGem::Mysql
+I, [2019-06-27T19:17:47.210844 #13232]  INFO -- default-ubuntu-1204:   7:  Chef::Platform.set platform: :debian, resource: :mysql2_chef_gem, provider: Chef::Provider::Mysql2ChefGem::Mysql
+I, [2019-06-27T19:17:47.212435 #13232]  INFO -- default-ubuntu-1204:   8:  Chef::Platform.set platform: :fedora, version: '< 19', resource: :mysql2_chef_gem, provider: Chef::Provider::Mysql2ChefGem::Mysql
+I, [2019-06-27T19:17:47.213064 #13232]  INFO -- default-ubuntu-1204:   9:  Chef::Platform.set platform: :fedora, version: '>= 19', resource: :mysql2_chef_gem, provider: Chef::Provider::Mysql2ChefGem::Mysql
+I, [2019-06-27T19:17:47.213190 #13232]  INFO -- default-ubuntu-1204:  10:  Chef::Platform.set platform: :omnios, resource: :mysql2_chef_gem, provider: Chef::Provider::Mysql2ChefGem::Mysql
+I, [2019-06-27T19:17:47.215064 #13232]  INFO -- default-ubuntu-1204:  11:  Chef::Platform.set platform: :redhat, version: '< 7.0', resource: :mysql2_chef_gem, provider: Chef::Provider::Mysql2ChefGem::Mysql
+I, [2019-06-27T19:17:47.215397 #13232]  INFO -- default-ubuntu-1204:  12:  Chef::Platform.set platform: :redhat, version: '>= 7.0', resource: :mysql2_chef_gem, provider: Chef::Provider::Mysql2ChefGem::Mysql
+I, [2019-06-27T19:17:47.215462 #13232]  INFO -- default-ubuntu-1204:  13:  Chef::Platform.set platform: :scientific, version: '< 7.0', resource: :mysql2_chef_gem, provider: Chef::Provider::Mysql2ChefGem::Mysql
+I, [2019-06-27T19:17:47.215519 #13232]  INFO -- default-ubuntu-1204: 
+I, [2019-06-27T19:17:47.222263 #13232]  INFO -- default-ubuntu-1204: System Info:
+I, [2019-06-27T19:17:47.223480 #13232]  INFO -- default-ubuntu-1204: ------------
+I, [2019-06-27T19:17:47.224204 #13232]  INFO -- default-ubuntu-1204: chef_version=13.4.24
+I, [2019-06-27T19:17:47.224619 #13232]  INFO -- default-ubuntu-1204: platform=ubuntu
+I, [2019-06-27T19:17:47.225503 #13232]  INFO -- default-ubuntu-1204: platform_version=12.04
+I, [2019-06-27T19:17:47.225790 #13232]  INFO -- default-ubuntu-1204: ruby=ruby 2.4.2p198 (2017-09-14 revision 59899) [x86_64-linux]
+I, [2019-06-27T19:17:47.225883 #13232]  INFO -- default-ubuntu-1204: program_name=chef-solo worker: ppid=2045;start=17:17:40;
+I, [2019-06-27T19:17:47.225973 #13232]  INFO -- default-ubuntu-1204: executable=/opt/chef/bin/chef-solo
+I, [2019-06-27T19:17:47.226029 #13232]  INFO -- default-ubuntu-1204: 
+I, [2019-06-27T19:17:47.226083 #13232]  INFO -- default-ubuntu-1204: 
+I, [2019-06-27T19:17:47.230824 #13232]  INFO -- default-ubuntu-1204: Running handlers:
+I, [2019-06-27T19:17:47.231398 #13232]  INFO -- default-ubuntu-1204: [2019-06-27T17:17:46+00:00] ERROR: Running exception handlers
+I, [2019-06-27T19:17:47.234590 #13232]  INFO -- default-ubuntu-1204: [2019-06-27T17:17:46+00:00] ERROR: Running exception handlers
+I, [2019-06-27T19:17:47.236482 #13232]  INFO -- default-ubuntu-1204: Running handlers complete
+I, [2019-06-27T19:17:47.237232 #13232]  INFO -- default-ubuntu-1204: [2019-06-27T17:17:46+00:00] ERROR: Exception handlers complete
+I, [2019-06-27T19:17:47.237989 #13232]  INFO -- default-ubuntu-1204: [2019-06-27T17:17:46+00:00] ERROR: Exception handlers complete
+I, [2019-06-27T19:17:47.239118 #13232]  INFO -- default-ubuntu-1204: Chef Client failed. 0 resources updated in 05 seconds
+I, [2019-06-27T19:17:47.242391 #13232]  INFO -- default-ubuntu-1204: [2019-06-27T17:17:46+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2019-06-27T19:17:47.243263 #13232]  INFO -- default-ubuntu-1204: [2019-06-27T17:17:46+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2019-06-27T19:17:47.245735 #13232]  INFO -- default-ubuntu-1204: [2019-06-27T17:17:46+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+I, [2019-06-27T19:17:47.246427 #13232]  INFO -- default-ubuntu-1204: [2019-06-27T17:17:46+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+I, [2019-06-27T19:17:47.247265 #13232]  INFO -- default-ubuntu-1204: [2019-06-27T17:17:46+00:00] ERROR: undefined method `set' for Chef::Platform:Class
+I, [2019-06-27T19:17:47.247694 #13232]  INFO -- default-ubuntu-1204: [2019-06-27T17:17:46+00:00] ERROR: undefined method `set' for Chef::Platform:Class
+I, [2019-06-27T19:17:47.248717 #13232]  INFO -- default-ubuntu-1204: [2019-06-27T17:17:46+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+I, [2019-06-27T19:17:47.249935 #13232]  INFO -- default-ubuntu-1204: [2019-06-27T17:17:46+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+E, [2019-06-27T19:17:47.462955 #13232] ERROR -- default-ubuntu-1204: Converge failed on instance <default-ubuntu-1204>.
+E, [2019-06-27T19:17:47.463127 #13232] ERROR -- default-ubuntu-1204: ------Exception-------
+E, [2019-06-27T19:17:47.463187 #13232] ERROR -- default-ubuntu-1204: Class: Kitchen::ActionFailed
+E, [2019-06-27T19:17:47.463236 #13232] ERROR -- default-ubuntu-1204: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --no-color --json-attributes /tmp/kitchen/dna.json  --force-formatter 
+']
+E, [2019-06-27T19:17:47.463285 #13232] ERROR -- default-ubuntu-1204: ----------------------
+E, [2019-06-27T19:17:47.463332 #13232] ERROR -- default-ubuntu-1204: ------Backtrace-------
+E, [2019-06-27T19:17:47.463377 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/provisioner/base.rb:91:in `rescue in call'
+E, [2019-06-27T19:17:47.463423 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/provisioner/base.rb:67:in `call'
+E, [2019-06-27T19:17:47.463468 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:408:in `block in converge_action'
+E, [2019-06-27T19:17:47.463513 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:551:in `synchronize_or_call'
+E, [2019-06-27T19:17:47.463562 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:513:in `block in action'
+E, [2019-06-27T19:17:47.463609 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/2.5.0/benchmark.rb:293:in `measure'
+E, [2019-06-27T19:17:47.463654 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:512:in `action'
+E, [2019-06-27T19:17:47.463697 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:404:in `converge_action'
+E, [2019-06-27T19:17:47.463741 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:382:in `block (2 levels) in transition_to'
+E, [2019-06-27T19:17:47.463784 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/lifecycle_hooks.rb:45:in `run_with_hooks'
+E, [2019-06-27T19:17:47.463827 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:381:in `block in transition_to'
+E, [2019-06-27T19:17:47.463870 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:380:in `each'
+E, [2019-06-27T19:17:47.463913 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:380:in `transition_to'
+E, [2019-06-27T19:17:47.463956 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:162:in `verify'
+E, [2019-06-27T19:17:47.463999 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:197:in `public_send'
+E, [2019-06-27T19:17:47.464042 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2019-06-27T19:17:47.464085 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2019-06-27T19:17:47.464128 #13232] ERROR -- default-ubuntu-1204: ----End Backtrace-----
+E, [2019-06-27T19:17:47.464170 #13232] ERROR -- default-ubuntu-1204: ---Nested Exception---
+E, [2019-06-27T19:17:47.464212 #13232] ERROR -- default-ubuntu-1204: Class: Kitchen::Transport::SshFailed
+E, [2019-06-27T19:17:47.464255 #13232] ERROR -- default-ubuntu-1204: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --no-color --json-attributes /tmp/kitchen/dna.json  --force-formatter 
+']
+E, [2019-06-27T19:17:47.464298 #13232] ERROR -- default-ubuntu-1204: ----------------------
+E, [2019-06-27T19:17:47.464340 #13232] ERROR -- default-ubuntu-1204: ------Backtrace-------
+E, [2019-06-27T19:17:47.464382 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/provisioner/base.rb:91:in `rescue in call'
+E, [2019-06-27T19:17:47.464425 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/provisioner/base.rb:67:in `call'
+E, [2019-06-27T19:17:47.464468 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:408:in `block in converge_action'
+E, [2019-06-27T19:17:47.464511 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:551:in `synchronize_or_call'
+E, [2019-06-27T19:17:47.464556 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:513:in `block in action'
+E, [2019-06-27T19:17:47.464602 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/2.5.0/benchmark.rb:293:in `measure'
+E, [2019-06-27T19:17:47.464645 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:512:in `action'
+E, [2019-06-27T19:17:47.464688 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:404:in `converge_action'
+E, [2019-06-27T19:17:47.464731 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:382:in `block (2 levels) in transition_to'
+E, [2019-06-27T19:17:47.464774 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/lifecycle_hooks.rb:45:in `run_with_hooks'
+E, [2019-06-27T19:17:47.464817 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:381:in `block in transition_to'
+E, [2019-06-27T19:17:47.464859 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:380:in `each'
+E, [2019-06-27T19:17:47.464902 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:380:in `transition_to'
+E, [2019-06-27T19:17:47.464945 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:162:in `verify'
+E, [2019-06-27T19:17:47.464987 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:197:in `public_send'
+E, [2019-06-27T19:17:47.465030 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2019-06-27T19:17:47.465074 #13232] ERROR -- default-ubuntu-1204: C:/opscode/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2019-06-27T19:17:47.465116 #13232] ERROR -- default-ubuntu-1204: ----End Backtrace-----
